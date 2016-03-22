@@ -1,0 +1,38 @@
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int main()
+{
+    string nama;
+    int kehadiran;
+    float uts, tugas, harian, uas, rata2;
+
+    cout << "Menghitung Nilai Mahasiswa" << endl;
+    cout << "Nama Mahasiswa    : ";
+    getline (cin, nama);
+
+    cout << "Kehadiran         : ";
+    cin >> kehadiran;
+
+    cout << "Nilai UTS         : ";
+    cin >> uts;
+
+    cout << "Nilai Tugas       : ";
+    cin >> tugas;
+
+    cout << "Nilai Harian      : ";
+    cin >> harian;
+
+    cout << "Nilai UAS         : ";
+    cin >> uas;
+
+    rata2 = (0.25*uts)+(0.2*tugas)+(0.15*harian)+(0.3*uas)+(0.1*kehadiran);
+
+    cout << endl << "---Hasil---" << endl;
+    cout << "Nama Mahasiswa  : " <<nama<<endl;
+    cout << "Nilai Rata-rata : " <<rata2<<endl;
+
+return 0;
+}
