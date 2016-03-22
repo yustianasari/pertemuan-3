@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+void main()
+{
+    float panjang, lebar, jari
+    
+    cout<<"panjang"<<endl;
+    cin>>panjang;
+    cout<<"lebar"<<endl;
+    cin>>lebar;
+    cout<<"jari-jari"<<endl;
+    cin>>jari;
+    
+    cout<<"luas persegi panjang="<< panjang*lebar <<endl;
+    cout<<"luas setengah lingkaran=" <<0.5*3.14*jari<<endl;
+    cout<<"luas banung datar=" << (panjang*lebar)+(0.5*3.14*jari)<<endl
+}
